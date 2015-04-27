@@ -1,10 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.alis.persianhardwarekeyboard"
-    android:versionName="0.1"
+    android:versionName="1.1"
+    android:versionCode="2"
     android:installLocation="auto">
 
     <!-- API level 16 is needed for KEYBOARD_LAYOUTS etc. -->
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="17" />
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
 
     <!-- by default touchscreen is required by Android apps, we don't need one -->
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
