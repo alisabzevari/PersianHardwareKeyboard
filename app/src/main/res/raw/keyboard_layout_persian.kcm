@@ -305,7 +305,7 @@ key PERIOD {
 key SLASH {
     label:                              '/'
     base:                               '/'
-    shift:                              '?'
+    shift:                              '\u061F'
 }
 
 key SPACE {
